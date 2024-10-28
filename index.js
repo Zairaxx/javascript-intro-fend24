@@ -1,65 +1,58 @@
-// Variable
-
-// let age = 30;
-
-// const age2 = 60;
-
-// Datatyper
-
-//Strings
-let myName = "Brandon";
-const school = 'Nackademin';
-
-// school = "Ankademin"; 
-
-console.log(school);
-
-//Numbers 
+const NAME = "Brandon";
 let age = 30;
-let price = 19.99;
-
-//Booleans
-
-let isWinter = false;
-let isStudent = true;
+let favoriteDestination = "Strömsund";
+let siblings = 3;
+let hasPets = true;
 
 
+console.log("Hej, jag heter "  +  NAME + ". Jag är " + age + " år gammal. Jag tycker om att åka till " + favoriteDestination + ", med mina " + siblings + " syskon. Har jag husdjur? " + hasPets);
+console.log(`Hej, jag heter ${NAME}. Jag är ${age} år gammal. Jag tycker om att åka till ${favoriteDestination}, med mina ${siblings} syskon. Har jag husdjur? ${hasPets}`)
+let favoriteFruits = ["Banan", "Kiwi", "Ananas", "Mango", "Apelsin"];
 
-// Exempel på ett uttryck dvs ett påstående som returnerar en boolean;
-// Detta skriver ut false i konsolen.
-console.log("Är 3+3 = 5?",  3+3 === 5);
+favoriteFruits.push("Granatäpple");
 
-// Null & Undefined
+// console.log(favoriteFruits[0],favoriteFruits[3]);
 
-//Deklarerar en variabel
- let finnsInte;
+// console.log(favoriteFruits)
 
+let favoriteMovies = ["Interstellar", "Fight Club", "Hangover 1", "Hangover 2", "Hangover 3", "Hangover 4", "Fast & Furious"];
 
-//Array - List of values
+favoriteMovies.pop();
+console.log(favoriteMovies[favoriteMovies.length-1])
+// console.log(favoriteMovies[favoriteMovies.length-2])
 
-let myNumbers = [1,2,3,4,5,6,7,8,9,10]
-let myClassmates = ["Daniel", "Kamyab", "Båmi"];
-
-//Can include any type of values, arrays or objects
-let randomArray = [11256346, "Brandon", false, null, [0,1,2], {test: "Hello"} ]
-console.log(randomArray.length);
-
-//Assigning new value to index 1
-randomArray[1] = "Brandom";
-
-console.log(randomArray);
-//Objekt
-
-let myObject = {
-    //key:value
-    name: "Ofelia",
-    age: 22
+let myPet = {
+    // key/property :value
+   name: "Kobe",
+   breed: "Golden retriever",
+   type: "Dog",
+   age: 8,
+   isHerbivore: false,
+   // Metod = En funktion inuti ett objekt
+   talk: function() {
+    console.log("Woof woof!")
+   },
+   bestFriend: {
+    name: "Pluto",
+    breed: "Chihuahua",
+    type:"Dog",
+    age: 4,
+    isHerbivore:true
+   }
 }
 
-console.log("Hej, mitt namn är " + myObject.name + " och jag är " + myObject.age + " år gammal.")
+myPet.talk()
 
-console.log(2100602364234552);
-//Expressions
+// console.log("Age :" + myPet.age)
+
+// console.log(myPet.bestFriend.name)
 
 
-//Funktion
+let myName = "Brandon";
+let myAge = 47;
+let favoriteSport = "Basket";
+
+console.log(`Hej jag heter ${myName}, jag är ${myAge} år gammal. Min favoritsport är ${favoriteSport}`);
+
+
+    //Funktioner/Metoder, Uttryck/Expressionss
