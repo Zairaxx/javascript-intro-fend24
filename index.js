@@ -26,8 +26,8 @@ let isStudent = true;
 
 
 // Exempel på ett uttryck dvs ett påstående som returnerar en boolean;
-
-console.log( 0 === false);
+// Detta skriver ut false i konsolen.
+console.log("Är 3+3 = 5?",  3+3 === 5);
 
 // Null & Undefined
 
