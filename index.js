@@ -58,7 +58,7 @@ let myObject = {
 
 console.log("Hej, mitt namn är " + myObject.name + " och jag är " + myObject.age + " år gammal.")
 
-console.log(1542352362363262363214483647)
+console.log(2100602364234552);
 //Expressions
 
 
